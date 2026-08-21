@@ -1,0 +1,10 @@
+services:
+  webapps-nginx:
+    image: nginx:alpine
+    container_name: webapps-dev-server
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./workshop1_webapp/my-site:/var/www/workshop1_webapp/my-site:ro
+    restart: unless-stopped
