@@ -2,3 +2,5 @@ Consideraciones.txt
 .DS_Store
 *.log
 node_modules/
+CLAUDE.md
+knowledge.md
