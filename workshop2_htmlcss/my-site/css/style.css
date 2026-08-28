@@ -36,20 +36,6 @@ body{
     transform: scale(1.05);
 }
 
-.card {
-    border: 1px solid #ccc;
-    padding: 16px;
-}
-
-.profile-photos {
-    display: flex;
-    gap: 16px;
-}
-.highlight {
-    background-color: yellow;
-    padding: 2px 4px;
-}
-
 header{
     background-color: var(--green);
     color: var(--white);
