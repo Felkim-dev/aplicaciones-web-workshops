@@ -12,8 +12,28 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-nav a{
+
+
+.indice-tarjetas {
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.indice-tarjetas a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--white);
     text-decoration: none;
+    background-color: var(--concrete);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.indice-tarjetas a:hover{
+    background-color: var(--black-green);
+    transform: scale(1.05);
 }
 
 .card {
@@ -29,6 +49,19 @@ nav a{
     background-color: yellow;
     padding: 2px 4px;
 }
+
 h1 {
-    color: darkred;
+    color: var(--black-eld);
+}
+
+header{
+    background-color: var(--green);
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: var(--concrete);
+    color: var(--white);
+    padding: 10px 20px;
 }
