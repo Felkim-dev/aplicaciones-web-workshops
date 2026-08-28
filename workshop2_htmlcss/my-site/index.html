@@ -3,12 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>My University Website</title>
+        <!-- Global Form <style>
+            body{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            nav a {
+                text-decoration: none;
+            }
+        </style> -->
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
     
     <body>
         <header>
             <h1> My University Website</h1>
-            <p> This is a summary about me and my career in Computer Science.</p>
+            <p style="font-style: italic;"> This is a summary about me and my career in Computer Science.</p>
         </header>
         <nav>
             <a href="index.html">
@@ -33,30 +42,32 @@
         <main>
             <section>
                 <h2>About Me</h2>
-                <article>
+                <article class="card">
                     <h3>Personal Information</h3>
+                    <div class="profile-photos">
                     <figure>
                         <img src="images/escuela_mate.png" alt="Logo of the School of Mathematical and Computational Sciences" height="75">
                     </figure>
                     <figure>
                         <img src="images/profile.jpg" alt="Image of Felipe" height="400">
                     </figure>
+                    </div>
                     <ul>
                         <li><strong>Name:</strong> Felipe</li>
                         <li><strong>Degree Program:</strong> Computer Science</li>
                         <li><strong>Semester:</strong> Eighth</li>
                     </ul>
                 </article>
-                <article>
+                <article class="card">
                     <h3>Description</h3>
                     <p>I am a young student passionate about the world of computer graphics 
-                        and how graphics engines work under the hood. I am also very 
+                        and how <span class="highlight">graphics engines work</span>  under the hood. I am also very 
                         interested in process automation using artificial intelligence. 
                         Outside of class, I enjoy working out, playing video games, and 
                         building programming projects that I can actually use for different 
                         tasks.</p>
                 </article>
-                <article>
+                <article class="card">
                     <h3>Interests</h3>
                     <ul>
                     <li>Artificial intelligence</li>

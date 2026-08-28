@@ -1,0 +1,34 @@
+:root{
+    --green: #486749;
+    --orange: #AF7845;
+    --yellow: #F2CF6C;
+    --white: #D9D1AF;
+    --light-green: #BBBC8C;
+    --black-green: #677257;
+    --concrete: #344340;
+    --black-eld: #202829;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a{
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.profile-photos {
+    display: flex;
+    gap: 16px;
+}
+.highlight {
+    background-color: yellow;
+    padding: 2px 4px;
+}
+h1 {
+    color: darkred;
+}
