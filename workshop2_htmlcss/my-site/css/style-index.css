@@ -1,0 +1,40 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social i{
+    color: black;
+    font-size: xx-large;
+}
+
+#profile-photo {
+    clip-path: circle(55% at center);
+    align-self: center;
+}
+
+#name {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+}
+
+#f-description {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#computer-science{
+    color: darkred;
+}
