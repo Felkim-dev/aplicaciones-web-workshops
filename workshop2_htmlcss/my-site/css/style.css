@@ -10,6 +10,7 @@
 }
 
 body{
+    background-color: var(--white);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -49,14 +50,20 @@ body{
     padding: 2px 4px;
 }
 
-h1 {
-    color: var(--black-eld);
-}
-
 header{
     background-color: var(--green);
     color: var(--white);
     padding: 10px 20px;
+}
+
+header h1 {
+    color: var(--white);
+    text-align: center;
+}
+
+header p {
+    color: var(--white);
+    text-align: center;
 }
 
 footer {
