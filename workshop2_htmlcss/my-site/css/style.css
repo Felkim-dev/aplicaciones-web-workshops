@@ -11,7 +11,10 @@
 
 body{
     background-color: var(--white);
+    display: flex;
+    flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
 }
 
 .indice-tarjetas {
@@ -56,4 +59,5 @@ footer {
     background-color: var(--concrete);
     color: var(--white);
     padding: 10px 20px;
+    margin-top: auto;
 }
