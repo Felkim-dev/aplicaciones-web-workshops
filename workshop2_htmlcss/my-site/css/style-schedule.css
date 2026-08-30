@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-family: var(--font-display);
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: center;
+    border: 1px solid var(--concrete);
+}
+
+thead {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--light-green);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--white);
+}
+
+tbody tr:hover {
+    background-color: var(--yellow);
+}
