@@ -1,0 +1,26 @@
+article {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+article figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+article figure img {
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 0 0 12px var(--black-eld);
+}
+
+article figcaption {
+    font-style: italic;
+    margin-top: 8px;
+    color: var(--black-green);
+}
+
+article p {
+    line-height: 1.6;
+}
