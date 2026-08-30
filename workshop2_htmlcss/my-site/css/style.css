@@ -7,6 +7,8 @@
     --black-green: #677257;
     --concrete: #344340;
     --black-eld: #202829;
+
+    --font-display: 'Cinzel', serif;
 }
 
 body{
@@ -35,8 +37,39 @@ body{
 }
 
 .indice-tarjetas a:hover{
-    background-color: var(--black-green);
-    transform: scale(1.05);
+    transform: scale(1.05);   
+    box-shadow: 0 0 12px var(--yellow);
+}
+
+h1 {
+    font-family: var(--font-display);
+    letter-spacing:3px;
+
+    border-bottom: 3px solid var(--yellow); 
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 5px; 
+
+}
+
+h2 {
+    font-family: var(--font-display);
+    letter-spacing:3px;
+
+    border-bottom: 3px solid var(--black-green); 
+    width: fit-content;
+    padding-bottom: 5px; 
+
+}
+
+h3 {
+    font-family: var(--font-display);
+    letter-spacing:3px;
+
+    border-bottom: 3px solid var(--black-green); 
+    width: fit-content;
+    padding-bottom: 5px; 
+
 }
 
 header{
