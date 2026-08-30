@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Contact Form</title>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style-contact.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap">
     </head>
     
     <body>
@@ -69,8 +71,10 @@
             <label for="Message">Message</label>
             <textarea id="Message" name="Message"></textarea>
             <br>
-            <label for="Checkbox">I agree that this information may be used to respond to my inquiry </label>
-            <input type="checkbox" id="Checkbox" name="Checkbox">
+            <div class="checkbox-group">
+                <input type="checkbox" id="Checkbox" name="Checkbox">
+                <label for="Checkbox">I agree that this information may be used to respond to my inquiry</label>
+            </div>
             <br>
             <input type="submit" value="Send Message" id="Submit" name="Submit">
         </form>
