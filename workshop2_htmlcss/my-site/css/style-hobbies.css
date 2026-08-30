@@ -1,0 +1,30 @@
+.card {
+    background-color: var(--concrete);
+    color: var(--light-green);
+    padding: 25px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    background-color: var(--black-eld);
+    box-shadow: 0 0 12px var(--yellow);
+}
+
+.card h2 {
+    color: var(--white);
+}
+
+.card figure {
+    text-align: center;
+}
+
+.card figure img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.card figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
