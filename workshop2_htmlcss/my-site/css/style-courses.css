@@ -1,0 +1,29 @@
+.course-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.course-list > li {
+    background-color: var(--concrete);
+    color: var(--light-green);
+    padding: 25px 30px;
+    border-radius: 8px;
+    border-left: 6px solid var(--yellow);
+}
+
+.course-list > li:hover {
+    background-color: var(--black-eld);
+    box-shadow: 0 0 12px var(--yellow);
+}
+
+.course-list h3 {
+    color: var(--white);
+    border-bottom: 3px solid var(--yellow);
+}
+
+.course-list a {
+    color: var(--yellow);
+}
