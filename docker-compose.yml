@@ -8,4 +8,5 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
       - ./workshop1_webapp/my-site:/var/www/workshop1_webapp/my-site:ro
       - ./workshop2_htmlcss/my-site:/var/www/workshop2_webapp/my-site:ro
+      - ./TeneSteve_QuilumbangoFelipe:/var/www/workshop3_webapp/my-site:ro
     restart: unless-stopped
