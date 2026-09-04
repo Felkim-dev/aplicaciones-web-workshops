@@ -4,6 +4,27 @@
    who owns this block before editing)
    ===================================================== */
 
+:root {
+  --navy-deep: #0b132b;
+  --navy: #1c2541;
+  --gold: #f4d35e;
+  --coral: #ee6c4d;
+  --coral-dark: #d9573b;
+  --paper: #f7f7f5;
+  --ink: #22262f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background-color: var(--paper);
+  line-height: 1.6;
+}
 
 
 /* =====================================================
@@ -11,13 +32,13 @@
    ===================================================== */
 
 .navbar {
-   background-color: #0b132b;
+   background-color: var(--navy-deep);
    padding: 1rem 0;
 }
 
 .navbar-brand {
-   background-color: #f4d35e;
-   color: #0b132b;
+   background-color: var(--gold);
+   color: var(--navy-deep);
    padding: 10px 20px;
    margin: 0 20px;
    font-size: 1.5rem;
@@ -39,13 +60,14 @@
 /* hover effect on nav links goes here */
 
 .navbar-links a:hover {
-   background-color: #1c2541;
-   color: #f4d35e;
+   background-color: var(--navy);
+   color: var(--gold);
 }
 
 #hero {
-   background-color: #1c2541;
+   background-color: var(--navy);
    padding: 2rem 0;
+   text-align: center;
 }
 
 #hero h1 {
@@ -61,11 +83,11 @@
 }
 
 #btn-hero {
-   background-color: #ee6c4d;
+   background-color: var(--coral);
    color: #fff;
    padding: 20px 30px;
    font-size: 1.2rem;
-   cursor: pointer;  
+   cursor: pointer;
    margin: 40px 0;
    border: none;
    border-radius: 10px;
@@ -75,7 +97,7 @@
 /* hover effect on hero button goes here */
 
 #btn-hero:hover {
-   background-color: #d9573b;
+   background-color: var(--coral-dark);
 }
 
 
@@ -84,8 +106,15 @@
    ===================================================== */
 
 #destinations {
-  padding: 60px 20px;
+  padding: 4rem 1.5rem;
   text-align: center;
+}
+
+#destinations h2,
+#booking h2 {
+  color: var(--navy);
+  font-size: 1.8rem;
+  margin: 0 0 10px;
 }
 
 .gallery {
@@ -141,8 +170,8 @@
 }
 
 #booking {
-  padding: 60px 20px;
-  background: #f4f4f4;
+  padding: 4rem 1.5rem;
+  background: var(--paper);
   text-align: center;
 }
 
@@ -171,7 +200,7 @@
 
 #btn-submit {
   padding: 12px 30px;
-  background: #ff6b35;
+  background: var(--coral);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -182,7 +211,7 @@
 
 
 #btn-submit:hover {
-  background: #e0551f;
+  background: var(--coral-dark);
 }
 
 
