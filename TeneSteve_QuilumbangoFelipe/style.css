@@ -42,7 +42,14 @@
 }
 
 #btn-hero {
-
+   background-color: #c44900;
+   color: #fff;
+   padding: 20px 30px;
+   font-size: 1.2rem;
+   cursor: pointer;  
+   margin: 40px 0;
+   border: none;
+   border-radius: 10px;
 }
 
 /* hover effect on hero button goes here */

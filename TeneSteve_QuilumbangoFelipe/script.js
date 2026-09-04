@@ -6,7 +6,16 @@ $(document).ready(function () {
      color randomly.
      ===================================================== */
 
-
+   const btn=document.querySelector('#btn-hero');
+   const body = document.querySelector('body');
+   btn.addEventListener('click', () => {
+   const colors = ['#5f0f40   ', '#9a031e', '#fb8b24', '#e36414', '#0f4c5c'];
+   function fondo(){
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      body.style.backgroundColor = randomColor;
+   }
+   fondo();
+  });
 
   /* =====================================================
      PERSON 2: Image Gallery Modal
