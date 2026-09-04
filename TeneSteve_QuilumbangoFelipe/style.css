@@ -1,0 +1,110 @@
+/* =====================================================
+   GENERAL LAYOUT
+   (base layout, resets, shared variables — decide together
+   who owns this block before editing)
+   ===================================================== */
+
+
+
+/* =====================================================
+   PERSON 1: Navbar + Hero
+   ===================================================== */
+
+.navbar {
+
+}
+
+.navbar-brand {
+
+}
+
+.navbar-links {
+
+}
+
+.navbar-links a {
+
+}
+
+/* hover effect on nav links goes here */
+
+
+#hero {
+
+}
+
+#hero h1 {
+
+}
+
+#hero p {
+
+}
+
+#btn-hero {
+
+}
+
+/* hover effect on hero button goes here */
+
+
+/* =====================================================
+   PERSON 2: Gallery + Form
+   ===================================================== */
+
+#destinations {
+
+}
+
+.gallery {
+
+}
+
+.gallery-img {
+
+}
+
+/* modal styles */
+.modal {
+
+}
+
+.modal-content {
+
+}
+
+.modal-close {
+
+}
+
+
+#booking {
+
+}
+
+#contact-form {
+
+}
+
+#contact-form label {
+
+}
+
+#contact-form input,
+#contact-form textarea {
+
+}
+
+#btn-submit {
+
+}
+
+
+/* =====================================================
+   RESPONSIVENESS
+   (media queries — add here once both sections are styled)
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+}
